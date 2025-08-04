@@ -33,9 +33,7 @@ HTML5 – Semantic structure
 
 CSS3 – Styling and layout
 
-AOS / ScrollReveal.js – Scroll animations
-
 React Icons – Icon library
 
-Google Fonts – Custom web typography
+Google Fonts 
 
