@@ -1,10 +1,11 @@
-AI Startup Kit – Landing Page Template
+<h1> 🧠AI Startup Kit – Landing Page Template</h1>
+
 A clean, modern, and responsive AI Startup landing page built using React.js and inspired by the original Framer design. Perfect for showcasing SaaS tools, AI products, or startup services.
 
 
 
 🚀 Features
--
+---
 
 ⚡ Responsive Design – Mobile-first layout that works on all devices
 
@@ -19,12 +20,23 @@ A clean, modern, and responsive AI Startup landing page built using React.js and
 🌐 Clean Codebase – Easy to read, extend, and maintain
 
 
-🛠️ Tech Stack
--
 
-Tool	Purpose
-React.js	Frontend framework
-CSS / SCSS	Styling (or Tailwind if applicable)
-AOS / ScrollReveal	Scroll animations
-Google Fonts	Typography
-Netlify / Vercel	Deployment (optional)
+
+🛠️ Tech Stack
+---
+
+React.js – UI library for building components
+
+Vite – Fast build tool and dev server
+
+JavaScript (ES6+) – Logic and interactivity
+
+HTML5 – Semantic structure
+
+CSS3 – Styling and layout
+
+React Icons – Icon library
+
+Google Fonts 
+
+Netlify / Vercel – Hosting and deployment
