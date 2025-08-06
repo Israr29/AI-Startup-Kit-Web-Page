@@ -1,12 +1,30 @@
-# React + Vite
+AI Startup Kit – Landing Page Template
+A clean, modern, and responsive AI Startup landing page built using React.js and inspired by the original Framer design. Perfect for showcasing SaaS tools, AI products, or startup services.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
+-
 
-## Expanding the ESLint configuration
+⚡ Responsive Design – Mobile-first layout that works on all devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Modern UI – Inspired by top-tier Framer and Figma designs
+
+🧩 Modular React Components – Fully reusable and well-structured
+
+✨ Smooth Animations – Scroll reveals, button transitions, and hover effects
+
+💡 CTA Sections – Clear calls to action to drive user engagement
+
+🌐 Clean Codebase – Easy to read, extend, and maintain
+
+
+🛠️ Tech Stack
+-
+
+Tool	Purpose
+React.js	Frontend framework
+CSS / SCSS	Styling (or Tailwind if applicable)
+AOS / ScrollReveal	Scroll animations
+Google Fonts	Typography
+Netlify / Vercel	Deployment (optional)
