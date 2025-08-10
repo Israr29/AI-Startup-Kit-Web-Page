@@ -6,6 +6,7 @@ import React, { useState } from "react";
 function Navbar() {
   const [showFeatures, setShowFeatures] = useState(false);
   const [showCompany , setShowCompany] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <>
@@ -13,8 +14,12 @@ function Navbar() {
       <div className="navbar">
         <div className="nav-logo">
           <img src={navLogo} alt="AI-Kit-logo" />
+          
         </div>
-        <div className="nav-links">
+     
+
+      
+        <div className={`nav-links ${showMenu ? "open" : ""}`}>
           <li className="dropdown" onMouseEnter={() => setShowFeatures(true)} onMouseLeave={() => setShowFeatures(false)}>
             <a href="#features">
               Features <i className="fa-solid fa-caret-down"></i>
@@ -53,11 +58,21 @@ function Navbar() {
             <a href="#Changelog">Changelog</a>
           </li>
         </div>
+        <div className="responsive">
         <div className="nav-btn">
           <div className="cover">
             <button>Join waitlist</button>
           </div>
+                       {
+        <div className={`hamburger ${showMenu ? "open" : ""}`} onClick={() => setShowMenu(!showMenu)}>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
+      }
+          </div>
+        </div>
+        
       </div>
     </>
   );
