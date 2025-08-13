@@ -1,7 +1,8 @@
 import "./HeroSection.css";
-
+import ImagePreviewComponent from "../../components/ImagePreview/ImagePreview.jsx"
 function HeroSection() {
   return (
+    <>
     <section className="hero-section">
       <div className="hero-content">
         <div className="frame">
@@ -15,9 +16,15 @@ function HeroSection() {
           Elevate your site’s visibility effortlessly with AI, where smart
           technology meets user-friendly SEO tools.
         </p>
-        <button className="hero-btn">Start for free</button>
+       
+            <button className="hero-btn">Start for free</button>
+         
+        
       </div>
+      
     </section>
+    <ImagePreviewComponent />
+    </>
   );
 }
 
