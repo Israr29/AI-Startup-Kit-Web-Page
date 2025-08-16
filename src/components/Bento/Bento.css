@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+
+
+.bento-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    height: 100vh;
+    border:  2px solid white;
+}
+
+
+.heading{
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center; 
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    max-width: 550px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+
+.bento-1
+{
+    flex-direction: column;
+    
+}
